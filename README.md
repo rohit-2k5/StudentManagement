@@ -4,6 +4,10 @@
 
 A minimal student enrollment web app demonstrating saving, retrieving and updating records in JsonPowerDB (JPDB) via a small local proxy to avoid browser CORS issues. The front-end is a simple HTML form (index.html) with vanilla JavaScript (script.js). The proxy (server.js) forwards API calls to JPDB and adds CORS headers for local testing.
 
+## Screenshot
+
+![App Screenshot](ss.png)
+
 ## Benefits of using JsonPowerDB
 
 - Simple JSON-based API for CRUD operations.
@@ -56,9 +60,7 @@ Steps:
    - Enter an existing Roll No and blur the field to fetch the record.
    - Edit fields and click Update to send an UPDATE request using the JPDB rec_no mapping.
 
-## Screenshot
 
-![App Screenshot](ss.png)
 
 ## Notes
 
